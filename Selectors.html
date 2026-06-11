@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+</head>
+<body>
+    <a href="./Notes.html" target="_blank">Back!!</a>
+    <a href="./BoxModel1.html" target="_blank">Next!!</a>
+    <h1>CSS Selector</h1>
+    <h2>Selector:-</h2>
+        <p>A CSS Selector is a pattern used to select (target) the HTML elements on which you want to apply CSS styles.</p>
+    
+    <h2>Types of CSS Selector:--</h2>
+
+    <h3>1. Universal Selector (*):-</h3>
+    <p>Selects all elements.</p>
+        Example:-
+        <br><code>*{<br>
+        margin: 0;<br>
+        padding: 0;<br>
+}
+</code>
+    
+    <h3>2. Element Selector (Tag Selector):-</h3>
+    <p>Selects HTML tags.</p>
+     Example:-
+     <br>
+     <code>
+        h1 {
+            <br>
+  color: red;
+  <br>
+}
+
+     </code>
+    <h3>3. Class Selector (.):-</h3>
+    <p>Selects elements with a class attribute.</p>
+    Example:- 
+    <br>
+    <code>.title {
+        <br>
+  font-size: 30px; 
+  <br>
+
+}
+</code>
+    <h3>4. ID Selector (#):-</h3>
+    <p>Selects elements with a unique id.</p>
+    Example:- <br>
+    <code>
+        #header {
+            <br>
+  background: yellow;
+  <br>
+}
+    </code>
+    <h3>5. Attribute Selector:-</h3>
+    <p>Selects elements based on attributes.</p>
+    Example:- 
+    <br>
+    <code>
+input[type="text"] {
+    <br>
+  border: 2px solid blue;
+  <br>
+}
+
+    </code>
+    <h3>6. Group Selector (, ,):-</h3>
+    <p>Apply same style to multiple selectors.</p>
+        Example:- 
+    <br>
+    <code>
+h1, h2, p { 
+    <br>
+  color: green;
+  <br>
+}
+
+    </code>
+    <h3>7. Descendant Selector (Space ):-</h3>
+    <p>Selects elements inside another element.</p>
+        Example:- 
+    <br>
+    <code>
+div p {
+    <br>
+  color: purple;
+  <br>
+}
+
+    </code>
+    <h3>8. Child Selector (>):-</h3>
+    <p>Selects direct child only.</p>
+        Example:- 
+    <br>
+    <code>
+ul > li {
+    <br>
+  color: brown;
+  <br>
+}
+
+    </code>
+    <h3>9. Adjacent Sibling Selector (+):-</h3>
+    <p>Selects the next sibling.</p>
+        Example:- 
+    <br>
+    <code>
+h1 + p { 
+    <br>
+  color: orange;
+  <br>
+}
+
+    </code>
+    <h3>10. General Sibling Selector (~):-</h3>
+    <p>Selects all siblings after an element.</p>
+        Example:- 
+    <br>
+    <code>
+h1 ~ p { 
+    <br>
+  color: pink;
+  <br>
+}
+
+    </code>
+    <h3>11. Pseudo-class Selector (:):-</h3>
+    <p>Selects elements in a special state.</p>
+        Example:- 
+    <br>
+    <code>
+p::first-letter {
+    <br>
+  font-size: 40px;
+  <br>
+}
+
+    </code>
+    <h3>12. Pseudo-element Selector (::):-</h3>
+    <p>Selects part of an element.</p>
+        Example:- 
+    <br>
+    <code>
+p::first-letter {
+    <br>
+  font-size: 40px;
+  <br>
+}
+
+    </code>
+
+</body>
+</html>
