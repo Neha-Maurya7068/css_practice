@@ -1,0 +1,57 @@
+ *{
+            margin: 0;
+            padding: 0;
+            display: grid;
+            place-items: center;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        h2{
+            font-size: 50px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #fff;
+            text-shadow: 2px 2px 5x #000;
+        }
+
+        p{
+            font-size: 15px;
+            color: #fff;
+        }
+
+        /* section{
+            width:100%;
+            height:100vh;
+            background-image: linear-gradient(
+                rgba(0,0,0,0.3),
+                rgba(0,0,0,0.3)
+            ),url(./garden.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            background-attachment: fixed;
+        }  */
+
+
+        /* .section-2{
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            background-image: linear-gradient(
+                rgba(0,0,0,0.3),
+                rgba(0,0,0,0.3)
+            ), 
+            url(./neha.jpg);
+            
+        } */
+
+        /* .section-3{
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            background-image: linear-gradient(
+                rgba(0,0,0,0.3),
+                rgba(0,0,0,0.3)
+            ), 
+            url(./neha.jpg);
+            background-attachment: fixed;
+            
+        } */
