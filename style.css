@@ -1,0 +1,57 @@
+/* form{
+   
+    background-color: aqua;
+}
+ 
+        input[type="text"]{
+            color:yellow;
+            background-color: red;
+            
+        }
+        input[type="password"]{
+            color:red;
+            background-color:green;
+        }
+        input[type="submit"]{
+            background-color: blueviolet;
+            color:aqua;
+        } */
+
+
+
+        a:hover{
+            background-color: aqua;
+        }
+
+       a:active{
+        color: brown;
+       }
+       a:visited{
+        color: black;
+       }
+       
+
+
+
+        /* p{
+            color:green;
+
+        }
+         p::first-line{
+            color:red;
+            font-size: 20px;
+         }
+         p::first-letter{
+            color:purple;
+         }
+        p::after{
+            content: "👀";
+           
+        }
+        p::before{
+            content:"✔";
+        } */
+        
+
+
+
