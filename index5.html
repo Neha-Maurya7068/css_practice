@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage</title>
+</head>
+<style>
+    #outer {
+        height: 1735px;
+        width: 1500px;
+        border: 1px solid black;
+    }
+
+    #upperMain {
+        height: 600px;
+        width: 1500px;
+        background-image: url(gympic.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #menu {
+        height: 40px;
+        width: 1420px;
+        padding: 10px 40px 10px 40px;
+        background-color: antiquewhite;
+        opacity: 0.6;
+    }
+
+    #menuLeft {
+        height: 40px;
+        width: 300px;
+        font-size: 32px;
+        text-align: center;
+        float: left;
+    }
+
+    #menuRight {
+        height: 40px;
+        width: 1100px;
+        float: left;
+        font-weight: bolder;
+    }
+
+    #menuBox {
+        height: 40px;
+        width: 770px;
+        margin: 0px auto;
+        font-weight: bolder;
+    }
+
+    .mi {
+        width: 110px;
+        text-decoration: none;
+        display: block;
+        float: left;
+        font-size: 17px;
+        text-align: center;
+        color: orangered;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .mi:hover {
+        color: white;
+        background: orange;
+        border-radius: 6px;
+    }
+
+    #header {
+        height: 550px;
+        width: 1500px;
+    }
+
+    #headerContent {
+        height: 300px;
+        width: 850px;
+        margin: 0px auto;
+        padding-top: 120px;
+        text-align: center;
+        color: white;
+    }
+
+    #about {
+        height: 505px;
+        width: 1100px;
+        padding: 40px 200px 40px 200px;
+        font-size: 22px;
+        text-align: justify;
+    }
+
+    #program {
+        height: 470px;
+        width: 900px;
+        background-color: antiquewhite;
+        padding: 40px 300px 40px 300px;
+    }
+
+    #programsBox {
+        height: 100px;
+        width: 900px;
+        margin-bottom: 20px;
+    }
+
+    .programItems {
+        height: 100px;
+        width: 440px;
+        float: left;
+    }
+
+    .programItemsImage {
+        height: 100px;
+        width: 100px;
+        float: left;
+    }
+
+    .programItemsText {
+        height: 100px;
+        width: 315px;
+        float: left;
+        margin-left: 15px;
+    }
+</style>
+
+<body>
+    <div id="outer">
+        <div id="upperMain">
+            <div id="menu">
+                <div id="menuLeft"><span style="color:white;">Fitness</span>
+                    <span style="color:orangered;">Center</span>
+                </div>
+                <div id="menuright">
+                    <div id="menuBox">
+                        <a href="#" class="mi">Home</a>
+                        <a href="#" class="mi">About Us</a>
+                        <a href="#" class="mi">Contact</a>
+                        <a href="#" class="mi">Register</a>
+                        <a href="#" class="mi">Service</a>
+                        <a href="#" class="mi">Pricing</a>
+                        <a href="#" class="mi">Login</a>
+                    </div>
+                </div>
+            </div>
+            <div id="header">
+                <div id="headerContent">
+                    <h2>Work Harder,Get Stronger</h2>
+                    <div style="font-size: 55px; font-weight:bolder">EASY WITH OUR<span
+                            style="color:orangered;">GYM</span></div><br /><br />
+                    <button style="background-color: orangered; font-size: 18px; height:40px;">BECOME A MEMBER</button>
+                </div>
+            </div>
+        </div>
+        <div id="about">
+            <center><span style="color:orangered; font-size:50px; font-weight: bolder;">AboutUs</span></center>
+            <P>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi atque error officia praesentium tempore
+                eveniet soluta, cum quo? Fugiat est nemo maiores voluptatibus nihil facilis in, aliquid unde neque
+                impedit!
+            </P>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus, officia, impedit dicta ducimus
+                consectetur tempore quidem et fugit aspernatur veniam consequatur maxime harum accusamus ut laboriosam.
+                Eaque fuga porro voluptate.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus voluptatem quidem, id ab libero quas
+                perspiciatis officiis tempora aperiam obcaecati exercitationem quod pariatur eligendi accusantium cum
+                animi distinctio? Vitae, quos?
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolores ea culpa quas deleniti, cum,
+                repellat adipisci fugiat quisquam architecto ab atque molestias reiciendis natus error ullam ducimus,
+                quis consequatur!</p>
+        </div>
+        <!-- <div id="program">
+            <center><span style="color:orangered; font-size: 50px; font-weight: bold;">Choose Program</span></center>
+            <br /><br />
+            <div id="programsBox">
+                <div class="programItems">
+                    <div class="programItemsImage"><img src="dumble.png" style="width:100px" </div>
+                        <div class="programItemsText">
+                            <span style="font-weight:bold;">Monthly</span><br /><br />
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eveniet nulla vel
+                                tenetur quaerat impedit at ex laboriosam enim, est suscipit repudiandae molestias
+                                possimus illo voluptate distinctio, illum exercitationem quod.</span><br /><br />
+                            <span style="color:darkorange;">Subscribe</span>
+                        </div>
+                    </div>
+                    <div class="programItems" style="margin-left:20px;">
+                        <div class="programItemsImage"><img src="dumble.png" style="width:100px;" </div>
+                            <div class="programItemsText">
+                                <span style="font-weight:bold;">Monthly</span><br /><br />
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eveniet nulla
+                                    vel tenetur quaerat impedit at ex laboriosam enim, est suscipit repudiandae
+                                    molestias possimus illo voluptate distinctio, illum exercitationem
+                                    quod.</span><br /><br />
+                                <span style="color:darkorange;">Subscribe</span>
+                            </div>
+                        </div>
+                        <div id="programsBox">
+                            <div class="programItems">
+                                <div class="programItemsImage"><img src="dumble.png" style="width:100px;" </div>
+                                    <div class="programItemsText">
+                                        <span style="font-weight:bold;">Monthly</span><br /><br />
+                                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eveniet
+                                            nulla vel tenetur quaerat impedit at ex laboriosam enim, est suscipit
+                                            repudiandae molestias possimus illo voluptate distinctio, illum
+                                            exercitationem quod.</span><br /><br />
+                                        <span style="color:darkorange;">Subscribe</span>
+                                    </div>
+                                </div>
+                                <div class="programItems" style="margin-left:20px;">
+                                    <div class="programItemsImage"><img src="dumble.png" style="width:100px;" </div>
+                                        <div class="programItemsText">
+                                            <span style="font-weight:bold;">Monthly</span><br /><br />
+                                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+                                                eveniet nulla vel tenetur quaerat impedit at ex laboriosam enim, est
+                                                suscipit repudiandae molestias possimus illo voluptate distinctio, illum
+                                                exercitationem quod.</span><br /><br />
+                                            <span style="color:orangered;">Subscribe</span>
+                                        </div>
+                                    </div>
+                                    <div id="programsBox">
+                                        <div class="programItems">
+                                            <div class="programItemsImage"><img src="dumble.png" style="width:100px;"
+                                                    </div>
+                                                <div class="programItemsText">
+                                                    <span style="font-weight: bold;">Monthly</span>
+                                                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Incidunt eveniet nulla vel tenetur quaerat impedit at ex
+                                                        laboriosam enim, est suscipit repudiandae molestias possimus
+                                                        illo voluptate distinctio, illum exercitationem
+                                                        quod.</span><br /><br />
+                                                    <span style="color:orangered;">Subscribe</span>
+                                                </div>
+                                            </div>
+                                            <div class="programItems" style="margin-left:20px;">
+                                                <div class="programItemsImage"><img src="dumble.png"
+                                                        style="width:100px;" </div>
+                                                    <div class="programItemsText">
+                                                        <span style="font-weight: bold;">Monthly</span>
+                                                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                            Incidunt eveniet nulla vel tenetur quaerat impedit at ex
+                                                            laboriosam enim, est suscipit repudiandae molestias possimus
+                                                            illo voluptate distinctio, illum exercitationem
+                                                            quod.</span><br /><br />
+                                                        <span style="color:orangered;">Subscribe</span>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                
+
+                    </div>
+</body>
+
+</html>
