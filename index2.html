@@ -3,31 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS</title>
-    <style>
-        .container{
-            height: 200px;
-            width: 200px;
-            background-color: blueviolet;
-            border-radius: 50%;
-            padding:10px 20px 10px 20px;
-            margin:20px 10px 20px 10px;
-            border:2px solid red;
-
-            outline-offset: 20px;
-            background-image: url(./neha.jpg);
-            background-position: center;
-            background-size: cover;
-            box-shadow: 5px 5px 15px 2px red , inset 5px 5px 20px 2px black;
-
-        }
-
-
-    </style>
+    <title>Document</title>
 </head>
-<body>
-    <div class="container">
+<style>
+    #outer{
+        height:705px;
+        width: 1500px;
+        border:1px solid black
+    }
+    #header{
+        height:500px;
+        width:500px;
+        background-color: aqua;
+    }
+    #headerLeft{
+        height:200px;
+        width: 300px;
+        background-color: yellow;
+        float:left;
+    }
+    #headerRight{
+        height: 300px;
+        width: 200px;
+        background-color: blueviolet;
+        float:left;
+    }
+    #main{
+        height: 500px;
+        width: 500px;
+        background-color: red;
+    }
+    #mainLeft{
+        height: 200px;
+        width: 300px;
+        background-color: green;
+        float:left;
+    }
+    #mainRight{
+        height:300px;
+        width:200px;
+        background-color:brown;
+        float:left;
 
+    }
+    #mainRightUpper{
+        height: 100px;
+        width: 100px;
+        background-color: chartreuse;
+        float:left;
+    }
+    #mainRightLower{
+        height:100px;
+        width: 100px;
+        background-color: crimson;
+        float:left;
+    }
+    
+    #footer{
+        height:500px;
+        width:500px;
+        background-color: blue;
+    }
+</style>
+<body>
+    <div id="outer">
+        <div id="header">
+            <div id="headerLeft"></div>
+            <div id="headerRight"></div>
+        </div>
+        <div id="main">
+            <div id="mainLeft"></div>
+            <div id="mainRight">
+                <div id="mainRightUpper"></div>
+                <div id="mainRightLower"></div>
+            </div>
+        </div>
+        <div id="footer"></div>
     </div>
 </body>
 </html>
